@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Paola Perez</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+
+  </head>
+  <body>
+    <!-- TODO: change logo and put a responsive menu in the header. -->.
+    <header class="header">
+      <div class="header__inner">
+        <img class="header__logo" src="images/udacity.png" alt="logo udacity">
+        <h1 class="header__title">
+          Paola Pérez Masedo
+        </h1>
+        <h4 class="header__subtitle">
+          Front-end Ninja
+        </h4>
+      </div>
+    </header>
+    <main>
+      <section class="container__intro">
+        <div class="photo__intro">
+         <picture>
+           <source media="(min-width: 930px)" srcset="images/pixels_large.jpg"/>
+          <source media="(min-width: 550px)" srcset="images/pixels_medium2.jpg"/>
+            <source media="(min-width: 400px)" srcset="images/pixels_medium.jpg"/>
+            <img src="images/pixels_new.jpg" alt="pixel photo">
+          </picture>
+          </div>
+          <div class="intro">
+            <p class="intro__text"> Web Developer and Art designer based in Vienna</p>
+            <h2 class="interested">Interested?</h2>
+            <a href="#contac__infos"><h3 class="contac">Contac me!</h3></a>
+        </div>
+      </section>
+      <section class="container__projects">
+        <div class="projects">
+        <div class="projects__title">
+          <h5>Projects</h5>
+        </div>
+        <div class="mockup">
+          <picture>
+            <source media="(min-width: 650px)" srcset="images/mockup_small.jpg"/>
+            <source media="(min-width: 550px)" srcset="images/mockup_large.jpg"/>
+            <img src="images/mockup.jpg" alt="article with text and circles">
+        </picture>
+           <a href="https://codepen.io/Paola-web/pen/PQYQjm"><h5 class="mockup__description">Mock up to an article</h5></a>
+           <h6 class="mockup__sub">Mockup</h6>
+             <p class="mockup__rubrick">I had to translate a mockup from an article in pdf to HTML</p>
+<!-- TODO:link the icons. -->.
+<!-- TODO:link to github. -->.
+        </div>
+        <div class="animal">
+          <picture>
+            <source media="(min-width: 650px)" srcset="images/shark_small.jpg"/>
+            <source media="(min-width: 550px)" srcset="images/shark_large.jpg"/>
+            <img src="images/shark.jpg" alt="picture of a greenland shark">
+        </picture>
+           <a href="https://codepen.io/Paola-web/pen/eePWzW"><h5 class="animal__description">Animal Trading Cards</h5></a>
+           <h6 class="animal__sub">Styling with CSS</h6>
+             <p class="animal__rubrick">I was provided with a designed prototype inspired by trading cards that I translated into an actual trading card of my own by applying the proper CSS to a previosly given HTML</p>
+<!-- TODO:link the icons. -->.
+<!-- TODO:link to github. -->.
+        </div>
+        <div class="pixelart">
+          <picture>
+            <source media="(min-width: 650px)" srcset="images/pixelart_small.jpg"/>
+            <source media="(min-width: 550px)" srcset="images/pixelart_large.jpg"/>
+            <img src="images/pixelart.jpg" alt="grid with colors">
+        </picture>
+           <a href="https://codepen.io/Paola-web/pen/gvpQRg"><h5 class="pixelart__description">Pixel Art Maker</h5></a>
+           <h6 class="pixelart__sub">App developing</h6>
+             <p class="pixelart__rubrick">I was provided with a starting kit of HTML and basic CSS. I wrote the JavaScript code that lets the user to create a grid of squares representing their design and apply colors to those squares</p>
+
+        </div>
+      </div>
+        <div class="about">
+        <div class="notes__title">
+          <h1>About me</h1>
+        </div>
+        <!-- TODO:change text structure. -->.
+        <div class="text__about">
+          <p>It is fascinating the possibilities that learning how to use programming languages can offer.I was always into creativity and the power of imagination and how it could transport me far away from the real world even if it was just for a while. Working with my hands to sew hats, draw or write little texts kept me busy for hours.</p>
+          <p>But since a couple of years ago I started using HTML and CSS in a little blog, things got even more interesting!! I was able to make come true exacly what I wanted within some minutes!! I want this red, or that bigger... I would spend hours trying out new ideas!!</p>
+          <p>The things got more complex, of course, when I started to learn JavaScript, responsive desing, Jquery, Grunt, Version Control... It seems it never ends and that is sometimes overwhelming but there is a world of possibilities waiting for me out there and that is just awesome! I am ready for the next challenge!</p>
+        </div>
+        </div>
+
+    </section>
+
+      <footer>
+        <a id="contac__infos"><p>Paola Perez Masedo | 2018</p></a>
+
+        <!-- TODO:link the social icons. -->.
+   </footer>
+ </main>
+  </body>
+</html>

@@ -1,0 +1,179 @@
+/*
+ *
+ * flex box
+ *
+ */
+.container__intro{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*
+ *
+ * media queries
+ *
+ */
+
+@media screen and (min-width: 400px){
+.projects__title, .animal, .pixelart, .mockup {
+  padding-left:30px;
+}
+.mockup{
+  padding-top: 20px;
+}
+
+.header__title, .header__subtitle{
+  padding-right: 20px;
+}
+.container__projects{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.container__intro{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+}
+
+@media screen and (min-width: 500px){
+
+.projects__title{
+  margin-left: 20px;
+}
+  .mockup, .animal,.pixelart{
+    margin-left: 40px;
+  }
+
+}
+
+@media screen and (min-width: 550px){
+  .mockup, .animal,.pixelart{
+    margin-left: 0;
+  }
+
+.header__title{
+  font-size: 38px;
+}
+
+.header__subtitle{
+  font-size: 14px;
+  padding-right: 30px;
+}
+
+.container__intro{
+  margin-left: 20px;
+}
+
+
+.mockup,.animal, .pixelart{
+  width: 520px;
+}
+
+}
+
+@media screen and (min-width: 650px){
+
+.pixelart, .mockup,.animal{
+  width: 300px;
+  display: inline-grid;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+}
+
+}
+@media screen and (min-width: 700px){
+  .header__logo{
+    padding-left: 0;
+    width: 200px;
+    height: 100Px;
+  }
+
+  .header__title, .header__subtitle{
+    margin: 20px;
+  }
+
+  .container__intro{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .photo__intro: {
+    padding-left: 10px;
+  }
+
+  .intro{
+    display: block;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 200px;
+    padding-top: 10px;
+  }
+
+  .container__intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .container__intro{
+    width: 100%;
+    justify-content: space-around;
+  }
+  .intro {
+    font-size: 18px;
+
+    padding-left: 15px;
+    display: table;
+  }
+  .header__title{
+    font-size: 35px;
+  }
+
+.container__projects{
+  margin-top: 15px;
+  width:100%;
+  justify-content: space-around;
+
+
+}
+.pixelart, .mockup,.animal{
+  padding-left: 60px;  
+}
+}
+
+@media screen and (min-width: 900px){
+
+  main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pixelart, .mockup,.animal{
+    width:30%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+  .intro{
+    border-left: 2px solid black;
+  }
+
+  .mockup__rubrick, .animal__rubrick, .pixelart__rubrick{
+    width: 250px;
+
+  }
+}
